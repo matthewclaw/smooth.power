@@ -1,0 +1,15 @@
+C:\Users\Matthew\source\repos\smooth.power\Logic\bin\Debug\net5.0\Logic.deps.json
+C:\Users\Matthew\source\repos\smooth.power\Logic\bin\Debug\net5.0\Logic.dll
+C:\Users\Matthew\source\repos\smooth.power\Logic\bin\Debug\net5.0\ref\Logic.dll
+C:\Users\Matthew\source\repos\smooth.power\Logic\bin\Debug\net5.0\Logic.pdb
+C:\Users\Matthew\source\repos\smooth.power\Logic\bin\Debug\net5.0\Data.dll
+C:\Users\Matthew\source\repos\smooth.power\Logic\bin\Debug\net5.0\Data.pdb
+C:\Users\Matthew\source\repos\smooth.power\Logic\obj\Debug\net5.0\Logic.csprojAssemblyReference.cache
+C:\Users\Matthew\source\repos\smooth.power\Logic\obj\Debug\net5.0\Logic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matthew\source\repos\smooth.power\Logic\obj\Debug\net5.0\Logic.AssemblyInfoInputs.cache
+C:\Users\Matthew\source\repos\smooth.power\Logic\obj\Debug\net5.0\Logic.AssemblyInfo.cs
+C:\Users\Matthew\source\repos\smooth.power\Logic\obj\Debug\net5.0\Logic.csproj.CoreCompileInputs.cache
+C:\Users\Matthew\source\repos\smooth.power\Logic\obj\Debug\net5.0\Logic.csproj.CopyComplete
+C:\Users\Matthew\source\repos\smooth.power\Logic\obj\Debug\net5.0\Logic.dll
+C:\Users\Matthew\source\repos\smooth.power\Logic\obj\Debug\net5.0\ref\Logic.dll
+C:\Users\Matthew\source\repos\smooth.power\Logic\obj\Debug\net5.0\Logic.pdb
