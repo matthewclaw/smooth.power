@@ -52,10 +52,12 @@ namespace Server.Middlware
                 // attach user to context on successful jwt validation
                 context.Items["User"] = dbContext.Users.Find(userId);
             }
+            catch (SecurityTokenExpiredException ste)
+            {
+                context.Items["JwtError"] = "Token has expired";
+            }
             catch (Exception e)
             {
-                // do nothing if jwt validation fails
-                // user is not attached to context so request won't have access to secure routes
             }
         }
     }

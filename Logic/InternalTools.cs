@@ -50,11 +50,8 @@ namespace Logic
                 return DateTime.UtcNow.AddDays(5);
             }
             string lower = Settings.JwtLifetime.ToLower();
-            if (Regex.IsMatch(lower, @"s(ec)?"))
-            {
-                return DateTime.UtcNow.AddSeconds(units);
-            }
-            else if (Regex.IsMatch(lower, @"m(in)?"))
+
+            if (Regex.IsMatch(lower, @"m(in)?"))
             {
                 return DateTime.UtcNow.AddMinutes(units);
             }
@@ -65,6 +62,10 @@ namespace Logic
             else if (Regex.IsMatch(lower, @"d(ay)?"))
             {
                 return DateTime.UtcNow.AddDays(units);
+            }
+            else if (Regex.IsMatch(lower, @"s(ec)?"))
+            {
+                return DateTime.UtcNow.AddSeconds(units);
             }
             else
             {

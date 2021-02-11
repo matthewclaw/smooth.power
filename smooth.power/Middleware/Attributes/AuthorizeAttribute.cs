@@ -18,7 +18,12 @@ namespace Server.Middleware.Attributes
             var user = (UserEntity)context.HttpContext.Items["User"];
             if (user == null)
             {
-                context.Result = new JsonResult(new { message = "Unauthorized" }) { StatusCode = StatusCodes.Status401Unauthorized };
+                object msg = "";
+                if (!context.HttpContext.Items.TryGetValue("JwtError", out msg))
+                {
+                    msg = "Unauthorized";
+                }
+                context.Result = new JsonResult(new { message = (string)msg }) { StatusCode = StatusCodes.Status401Unauthorized };
             }
         }
     }

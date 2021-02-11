@@ -6291,23 +6291,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Matthew\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\matthew.law\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Matthew\\source\\repos\\smooth.power\\Logic\\Logic.csproj",
+      "projectUniqueName": "C:\\Users\\matthew.law\\Documents\\Repos\\smooth.power\\Logic\\Logic.csproj",
       "projectName": "Logic",
-      "projectPath": "C:\\Users\\Matthew\\source\\repos\\smooth.power\\Logic\\Logic.csproj",
-      "packagesPath": "C:\\Users\\Matthew\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Matthew\\source\\repos\\smooth.power\\Logic\\obj\\",
+      "projectPath": "C:\\Users\\matthew.law\\Documents\\Repos\\smooth.power\\Logic\\Logic.csproj",
+      "packagesPath": "C:\\Users\\matthew.law\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\matthew.law\\Documents\\Repos\\smooth.power\\Logic\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Matthew\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\matthew.law\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6315,14 +6311,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet5/nuget/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Matthew\\source\\repos\\smooth.power\\Data\\Data.csproj": {
-              "projectPath": "C:\\Users\\Matthew\\source\\repos\\smooth.power\\Data\\Data.csproj"
+            "C:\\Users\\matthew.law\\Documents\\Repos\\smooth.power\\Data\\Data.csproj": {
+              "projectPath": "C:\\Users\\matthew.law\\Documents\\Repos\\smooth.power\\Data\\Data.csproj"
             }
           }
         }
