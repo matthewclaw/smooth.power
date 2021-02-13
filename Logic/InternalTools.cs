@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Cryptography.KeyDerivation;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using Smooth.Power.Data.Entities;
 using Smooth.Power.Logic;
@@ -71,6 +72,11 @@ namespace Logic
             {
                 return DateTime.UtcNow.AddDays(units);
             }
+        }
+        public static UserEntity GetUser(this ControllerBase controller)
+        {
+            return (UserEntity)controller.HttpContext.Items["User"];
+
         }
     }
 }

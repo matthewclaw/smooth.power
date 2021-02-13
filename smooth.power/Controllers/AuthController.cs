@@ -18,12 +18,12 @@ namespace smooth.power.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class UserController : ControllerBase
+    public class AuthController : ControllerBase
     {
-        private readonly ILogger<UserController> _logger;
+        private readonly ILogger<AuthController> _logger;
 
         private readonly SmoothPowerContext _context;
-        public UserController(ILogger<UserController> logger,
+        public AuthController(ILogger<AuthController> logger,
             SmoothPowerContext context)
         {
             _logger = logger;
@@ -32,7 +32,7 @@ namespace smooth.power.Controllers
         [HttpPost("login")]
         public async Task<User> Login([FromBody] LoginRequest request)
         {
-            var user = await _context.Users.FirstOrDefaultAsync(u => u.Email.ToUpper() == request.Email.ToUpper() 
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.Email.ToUpper() == request.Email.ToUpper()
             && u.Password == request.Password.Hash());
 
             if (user == null)
@@ -51,7 +51,8 @@ namespace smooth.power.Controllers
         [HttpPost("Logout")]
         public async Task<IActionResult> Logout()
         {
-            return Ok();
+            _logger.LogInformation($"User {this.GetUser().Id} has logged out");
+            return await Task.FromResult(Ok());
         }
     }
 }

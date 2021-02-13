@@ -28,6 +28,10 @@ namespace smooth.power
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddLogging(config =>
+            {
+                config.AddFile("app.log", append: true);
+            });
             services.AddLogic(Configuration);
             services.AddAuthorization();
             services.AddControllers();

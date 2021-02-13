@@ -106,3 +106,8 @@ C:\Users\matthew.law\Documents\Repos\smooth.power\smooth.power\obj\Debug\net5.0\
 C:\Users\matthew.law\Documents\Repos\smooth.power\smooth.power\obj\Debug\net5.0\ref\Server.dll
 C:\Users\matthew.law\Documents\Repos\smooth.power\smooth.power\obj\Debug\net5.0\Server.pdb
 C:\Users\matthew.law\Documents\Repos\smooth.power\smooth.power\obj\Debug\net5.0\Server.genruntimeconfig.cache
+C:\Users\matthew.law\Documents\Repos\smooth.power\smooth.power\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\matthew.law\Documents\Repos\smooth.power\smooth.power\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\matthew.law\Documents\Repos\smooth.power\smooth.power\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\matthew.law\Documents\Repos\smooth.power\smooth.power\obj\Debug\net5.0\Server.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\matthew.law\Documents\Repos\smooth.power\smooth.power\bin\Debug\net5.0\NReco.Logging.File.dll
